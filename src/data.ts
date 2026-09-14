@@ -32,6 +32,6 @@ export const navGroups = [
  {label:'לקוחות',items:[['customers','לקוחות','Users'],['duplicates','כפילויות','Copy'],['categories','קטגוריות לקוחות','Tags'],['forecast','צפי הזמנות','CalendarClock']]},
  {label:'שטח',items:[['drivers','נהגים וקבלנים','Truck'],['technicians','טכנאים','Wrench'],['vehicles','רכבים','Car']]},
  {label:'מלאי',items:[['inventory','מחסן ומלאי','Warehouse'],['gas','Gas Operations','Cylinder'],['products','מוצרים ומחירונים','Package'],['suppliers','ספקים','Building2']]},
- {label:'כספים וניהול',items:[['payments','תשלומים ומסמכים','Wallet'],['profitability','רווחיות','ChartNoAxesCombined'],['bonuses','יעדים ובונוסים','Target'],['employees','עובדים והרשאות','ShieldCheck']]},
+ {label:'כספים וניהול',items:[['payments','תשלומים ומסמכים','Wallet'],['profitability','רווחיות','ChartNoAxesCombined'],['reports','דוחות וניתוח נתונים','ChartNoAxesCombined'],['bonuses','יעדים ובונוסים','Target'],['employees','עובדים והרשאות','ShieldCheck']]},
  {label:'מערכת',items:[['audit','יומן פעילות','History'],['devices','משתמשים ומכשירים','MonitorSmartphone'],['support','תמיכה וניהול מערכת','LifeBuoy'],['settings','הגדרות העסק','Settings']]}
 ];
