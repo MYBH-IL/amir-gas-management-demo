@@ -33,7 +33,7 @@ export const navGroups = [
  {label:'הפצה',items:[['dispatch','שיבוץ נהגים','Route'],['areas','אזורי חלוקה','MapPin'],['driver-alerts','התראות נהגים','Radio'],['notifications','מרכז התראות','Bell'],['map','מפת חלוקה','Map']]},
  {label:'לקוחות',items:[['customers','לקוחות','Users'],['duplicates','כפילויות','Copy'],['categories','קטגוריות לקוחות','Tags'],['forecast','צפי הזמנות','CalendarClock']]},
  {label:'שטח',items:[['drivers','נהגים','Truck'],['service-providers','נותני שירות','Building2'],['technicians','טכנאים','Wrench'],['vehicles','רכבים','Car']]},
- {label:'מלאי',items:[['inventory','מחסן ומלאי','Warehouse'],['gas','תפעול גז','Cylinder'],['products','מוצרים ומחירונים','Package'],['suppliers','ספקים','Building2']]},
+ {label:'מלאי',items:[['inventory','מחסן ומלאי','Warehouse'],['gas','בדיקת מלאי רכבים יומי','ClipboardList'],['products','מוצרים ומחירונים','Package'],['suppliers','ספקים','Building2']]},
  {label:'כספים וניהול',items:[['payments','תשלומים ומסמכים','Wallet'],['profitability','רווחיות','ChartNoAxesCombined'],['reports','דוחות וניתוח נתונים','ChartNoAxesCombined'],['bonuses','יעדים ובונוסים','Target'],['employees','עובדים והרשאות','ShieldCheck']]},
  {label:'מערכת',items:[['audit','יומן פעילות','History'],['devices','משתמשים ומכשירים','MonitorSmartphone'],['support','תמיכה וניהול מערכת','LifeBuoy'],['settings','הגדרות העסק','Settings']]}
 ];
