@@ -23,3 +23,6 @@
 .entity-full-action{display:flex;justify-content:flex-start;margin:-2px 0 12px}.full-entity-overlay{position:fixed;inset:0;z-index:80;background:#f6f8f7;overflow:auto}.full-entity-page{position:relative;width:min(1500px,100%);min-height:100vh;margin:0 auto;background:#fff;padding:28px 34px 60px;box-sizing:border-box}.full-entity-page .drawer-close{position:fixed;top:22px;left:24px;z-index:4}.full-entity-page .drawer-breadcrumbs{padding-left:60px}.full-entity-page .summary-box{max-width:none}.row-actions{display:flex;gap:4px;align-items:center}@media(max-width:700px){.full-entity-page{padding:20px 14px 45px}.full-entity-page .drawer-close{top:12px;left:12px}.full-entity-page .drawer-breadcrumbs{padding-left:48px}}
 
 .price-list-selector{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0 14px}.price-list-selector button{display:flex;flex-direction:column;gap:3px;min-width:145px;text-align:right;border:1px solid #dce6e1;background:#fff;border-radius:10px;padding:10px 12px;cursor:pointer}.price-list-selector button span{font-size:9px;color:#788983}.price-list-selector button.active{border-color:#24897b;background:#eef8f4;color:#176f64}
+
+/* Full-card dialogs must render above the full-screen entity workspace */
+.full-entity-overlay~.modal-overlay,.modal-overlay{z-index:120}.warehouse-primary-actions{margin:12px 0 16px;display:flex;gap:8px;flex-wrap:wrap}
